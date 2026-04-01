@@ -25,10 +25,8 @@
 []
 
 [Executioner]
-  type = MFEMTransient
+  type = MFEMSteady
   device = cpu
-  dt = 1.
-  end_time = 5.
 []
 
 [Outputs]

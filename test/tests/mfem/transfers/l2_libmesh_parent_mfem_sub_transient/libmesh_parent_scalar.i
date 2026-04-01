@@ -59,7 +59,7 @@
 
 [MultiApps]
   [mfem_app]
-    type = TransientMultiApp
+    type = FullSolveMultiApp
     input_files = mfem_sub_scalar.i
     execute_on = 'timestep_end'
   []
